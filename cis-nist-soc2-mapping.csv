@@ -1,0 +1,12 @@
+Check_Title,NIST_800-53_Control,SOC2_TSC,Description
+"Ensure SSH Root Login Is Disabled",AC-6,CC6.1,"Prevents direct root authentication over SSH; reduces the impact of a single compromised credential."
+"Ensure SSH Password Authentication Is Disabled",IA-2,CC6.1,"Requires key-based authentication for SSH instead of passwords."
+"Ensure UFW Is Installed and Running",SC-7,CC6.6,"Host-based firewall enforcing network boundary protection."
+"Ensure Default Deny Firewall Policy Is Set",SC-7,CC6.6,"Default-deny inbound policy limits exposure to only explicitly allowed services."
+"Ensure Permissions on /etc/passwd Are Configured",AC-6,CC6.1,"Restricts write access to the system account database."
+"Ensure Permissions on /etc/shadow Are Configured",IA-5,CC6.1,"Restricts read access to password hashes."
+"Ensure No Duplicate UID 0 Accounts Exist",AC-2,CC6.2,"Prevents undocumented accounts with root-equivalent privileges."
+"Ensure ASLR Is Enabled",SI-16,CC6.6,"Kernel-level memory protection that reduces exploit reliability."
+"Ensure Auditd Is Installed and Enabled",AU-2,CC7.2,"Provides tamper-resistant logging of security-relevant system events."
+"Ensure Automatic Security Updates Are Configured",SI-2,CC7.1,"Reduces the exposure window for known vulnerabilities through timely patching."
+"Custom: Telnet Server Not Installed",CM-7,CC6.6,"Removes a cleartext remote-access service with no legitimate use case in this environment."
